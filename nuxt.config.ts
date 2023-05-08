@@ -7,6 +7,6 @@ export default defineNuxtConfig({
         Montserrat: true
     },
     app: {
-        baseURL: '/kpfu-shopify-task/'
+        baseURL: '/kpfu-shop-task/'
     }
 })
