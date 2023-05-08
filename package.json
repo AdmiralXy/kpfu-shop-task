@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "^1.0.4",
+    "@types/node": "^18",
+    "element-plus": "^2.3.4",
+    "gh-pages": "^5.0.0",
+    "nuxt": "^3.4.3",
+    "sass": "^1.62.1",
+    "sass-loader": "10",
+    "vue-plugin-load-script": "^2.1.1"
+  },
+  "dependencies": {
+    "@nuxtjs/google-fonts": "^3.0.0",
+    "@nuxtjs/tailwindcss": "^6.6.7",
+    "nuxt-icon": "^0.4.0"
+  }
+}
