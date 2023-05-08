@@ -47,10 +47,10 @@ const sendMail = () => {
     toastError('Пожалуйста, укажите почту')
     return
   }
-    if (phone.value === '') {
-        toastError('Пожалуйста, укажите номер телефона')
-        return
-    }
+  if (phone.value === '') {
+      toastError('Пожалуйста, укажите номер телефона')
+      return
+  }
   window.Email.send({
       SecureToken : "8b3c5537-a8ec-4707-b282-548e571b99a5",
       To : email.value,
@@ -66,6 +66,7 @@ const sendMail = () => {
   })
   cart.value = []
   email.value = ''
+  phone.value = ''
   toastSuccess('Заказ успешно оформлен. Скоро с вами свяжется менеджер')
 }
 
